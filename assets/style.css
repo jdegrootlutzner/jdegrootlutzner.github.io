@@ -1,7 +1,7 @@
 /*
 Stylesheet
 Created in January 2019
-Sight inspired with permission by my friend Juliana Castro 
+Sight inspired with permission by my friend Juliana Castro
 http://julianacastro.co/
  */
 body {
@@ -116,6 +116,18 @@ section.posts {
   opacity: 0;
   position: relative;
   top: 40%;
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 .item #title {
