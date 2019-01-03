@@ -19,7 +19,14 @@ a, a:visited, a:hover {
   color: #000;
 }
 
-
+#project-content{
+  font-family: 'Helvetica', 'Fira Coda';
+  max-width: 450px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  float: left;
+}
 
 /* ---------------------------------
 NAVIGATION & LINKS (header.php)
@@ -202,7 +209,10 @@ Change In Window Size
     font-size: 1.1em;
     letter-spacing: initial;
   }
+  #project-content{
+    margin-left: 0px;
 
+  }
   footer p {
     margin-top: 20px;
     text-align: center;
@@ -292,6 +302,7 @@ Change In Window Size
   section {
     padding-bottom: 0 !important;
   }
+
 
 
 
