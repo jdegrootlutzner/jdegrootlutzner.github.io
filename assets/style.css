@@ -19,6 +19,14 @@ a, a:visited, a:hover {
   color: #000;
 }
 
+section #about-content{
+  font-family: 'Helvetica', 'Fira Coda';
+  max-width: 450px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  float: left;
+}
 section #project-content{
   font-family: 'Helvetica', 'Fira Coda';
   max-width: 450px;
@@ -208,6 +216,10 @@ Change In Window Size
   nav #nav-title a {
     font-size: 1.1em;
     letter-spacing: initial;
+  }
+  section #about-content{
+    margin-left: 0px;
+
   }
   section #project-content{
     margin-left: 0px;
