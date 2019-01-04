@@ -35,6 +35,12 @@ section #project-content{
   position: relative;
   float: left;
 }
+section #project-content h4 {
+  font-style: italic;
+}
+section #project-content img {
+  max-width:100%;
+}
 
 /* ---------------------------------
 NAVIGATION & LINKS (header.php)
