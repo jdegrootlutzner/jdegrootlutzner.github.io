@@ -8,7 +8,7 @@ http://julianacastro.co/ -->
 <head>
 <title>Julian DeGroot-Lutzner</title>
 <link rel="stylesheet" id="main_css-css"
-href="assets/style.css" type="text/css" media="all">
+href="../assets/style.css" type="text/css" media="all">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -26,23 +26,24 @@ href="assets/style.css" type="text/css" media="all">
       <!-- Navigation -->
       <nav>
         <div id="nav-title">
-          <a href="https://jdegrootlutzner.github.io/index.html">Julian DeGroot-Lutzner</a>
+          <a href="https://jdegrootlutzner.github.io/index">Julian DeGroot-Lutzner</a>
           <!-- Insert Logo Here instead of name? -->
         </div>
         <ul class="nav-menu-links">
           <li>
             <a title="projects"
-            href="https://jdegrootlutzner.github.io/index.html" >
+            href="https://jdegrootlutzner.github.io/index.html"
+            style = "color:blue">
             projects
           </a>
         </li>
         <li>
-          <a title="thoughts"
-          href="https://jdegrootlutzner.github.io/thoughts.html" style = "color:blue">
+          <a title="thoughts" href="https://jdegrootlutzner.github.io/thoughts.html">
             thoughts
           </a></li>
           <li>
-            <a title="about" href="https://jdegrootlutzner.github.io/about.html">
+            <a title="about"
+            href="https://jdegrootlutzner.github.io/about.html">
               about
             </a>
           </li>
@@ -51,10 +52,25 @@ href="assets/style.css" type="text/css" media="all">
     </aside>
 
     <section class="posts" >
-      <div id = "about-content" >
-        <p>  Blog coming soon...
-        </p>
-        <img src="assets/images/under-construction.gif"
+
+      <article id = "project-content" >
+        <h4>For my math class "Computational Statistics," I worked with the Citi Bike NYC Dataset.</h4>
+        <p>With over 40 million bike ride entries in the dataset, I uploaded the file into a SQL database, and then worked with a 1% random sample in R. I learned a lot about working with large datasets.</p>
+        <p>You can read the final report <a href="https://github.com/jdegrootlutzner/citibike-analysis/blob/master/final-write-up.pdf">here</a>.</p>
+        <p>Below are a few of the graphs my teammate and I made:</p>
+        <img src="../assets/images/days-of-week.png" alt="Graph of bike rides by day of week"></img>
+        <br>
+        <img src="../assets/images/num-by-week.png" alt="Graph of bike rides by week of year"></img>
+        <br>
+        <img src="../assets/images/heatmap.png" alt="Heat mat graph of bike rides in NYC"></img>
+        <br>
+        <img src="../assets/images/rides-per-station.png" alt="Graph of bike rides per station."></img>
+        <br>
+        <img src="../assets/images/over-time.png" alt="Graph of number of bike rides over time."></img>
+
+
+
+        </article>
       </div>
         <!-- navigation for when I get to more than 9 projects -->
         <!-- <div id= "num-nav">
