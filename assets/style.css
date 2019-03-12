@@ -175,9 +175,13 @@ section.posts {
 }
 
 section.posts img {
+  width: 100% ;
+  height: auto ;
+}
+/*section.posts img {
   width: 100% !important;
   height: auto !important;
-}
+}*/
 
 
 
@@ -254,7 +258,7 @@ Change In Window Size
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    position: initial !important;
+    position: initial;
     float: none;
     margin-top: 5px;
   }
@@ -286,7 +290,7 @@ Change In Window Size
 
   .color-overlay:hover {
     opacity: initial;
-    background: blue;
+    background: yellow;
     /*NEWCOLOR*/
   }
 
@@ -318,7 +322,7 @@ Change In Window Size
 
 
   section {
-    padding-bottom: 0 !important;
+    padding-bottom: 0;
   }
 
 
