@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- Main projects page
+Created in January 2019
+Sight inspired with permission by friend Juliana Castro
+Use jQuery, masonry, and imagesLoaded
+http://julianacastro.co/ -->
+<html lang= "en">
+<head>
+<title>Julian DeGroot-Lutzner</title>
+<link rel="stylesheet" id="main_css-css"
+href="../assets/style.css" type="text/css" media="all">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <!-- Keywords for Search Engine Optimization -->
+  <div id="keywords" style="display: none;">
+    <h1> Julian DeGroot-Lutzner - Julian - DeGroot - Lutzner </h1>
+  </div>
+
+  <div id="wrapper">
+
+    <aside>
+      <!-- Navigation -->
+      <nav>
+        <div id="nav-title">
+          <a href="https://jdegrootlutzner.github.io/index">Julian DeGroot-Lutzner</a>
+          <!-- Insert Logo Here instead of name? -->
+        </div>
+        <ul class="nav-menu-links">
+          <li>
+            <a title="projects"
+            href="https://jdegrootlutzner.github.io/index.html"
+            style = "color:blue">
+            projects
+          </a>
+        </li>
+        <li>
+          <a title="thoughts" href="https://jdegrootlutzner.github.io/thoughts.html">
+            thoughts
+          </a></li>
+          <li>
+            <a title="about"
+            href="https://jdegrootlutzner.github.io/about.html">
+              about
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section class="posts" >
+
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mNOx1jBMH7g"
+    frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+    gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+      </div>
+        <!-- navigation for when I get to more than 9 projects -->
+        <!-- <div id= "num-nav">
+        <p> \< 1 2 \> </p>
+      </div> -->
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        - learner - maker - explorer -
+      </p>
+    </footer>
+
+  </div>
+
+
+  <script><!--
+  wpa2a.targets=[];
+  wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+  //--></script>
+
+  <!-- load JS packages -->
+  <!-- jquery -->
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+  </script>
+  <!-- masonry -->
+  <script src = "https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js">
+  </script>
+  <!-- imagesloaded -->
+  <script src = "https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js">
+  </script>
+
+  <!-- wait for photos to load and then initialize masonry -->
+  <script>
+  jQuery(document).ready(function($) {
+    $('.posts').imagesLoaded(
+      function(){
+        $('.posts').masonry({
+          itemSelector : '.item',
+          columnWidth : '.item'
+        });
+      }
+    );
+  });
+  </script>
+
+</body>
+</html>
